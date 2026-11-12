@@ -6,11 +6,26 @@
 
 **Draw anywhere. Release Alt. Gone.**
 
-Temporary screen annotations for Windows. Tap Alt, then hold Alt to draw over your desktop. Let go and every temporary stroke disappears. Your mouse goes straight back to normal.
+**Point something out. Explain it. Move on.** ScreenWisp lets you draw temporary annotations over your Windows desktop during lessons, live streams, presentations, and screen shares — without taking a screenshot or keeping a floating toolbar on screen.
 
-Native C# / WPF. Multiple monitors. A tray icon instead of a floating toolbar. Open source under MIT.
+Tap and release Alt, then press and hold the same Alt again to draw. **Release Alt and your marks instantly vanish**, while the mouse returns to normal. Works across multiple monitors.
 
-> **1.0.0 RC3 — release candidate.** English and Russian are available, with Automatic Windows UI language detection and English fallback. Downloads are unsigned. Clean-machine and real Windows sign-in checks are still pending; see [validation and remaining checks](docs/RELEASE-VALIDATION.md).
+Free · Open source (MIT) · Windows 10/11 x64 · English & Russian
+
+[**Download ScreenWisp**](https://github.com/dontpalevo/ScreenWisp/releases/tag/v1.0.0-rc.3) · [See how it works](#draw-explain-let-go)
+
+## Who is ScreenWisp for?
+
+- **Teachers & tutors:** circle a formula, underline a paragraph, or point out a detail during a remote lesson.
+- **Streamers & creators:** highlight something on your desktop while explaining it live, then clear the screen in a second. Verify your capture software records desktop overlays.
+- **Presenters & meeting hosts:** direct attention to a chart, slide, number, or on-screen control during a screen share.
+- **Developers & code reviewers:** indicate a line of code, bug, or UI element as you talk through it.
+- **Tech support & guides:** show people where to click or what setting to change.
+- **Anyone explaining something on screen:** sketch a quick circle, underline, or pointer instead of describing where to look.
+
+It's a lightweight native C# / WPF tray app: a small brush panel when you need it, no always-visible floating controls.
+
+> **v1.0.0-rc.3 — pre-release.** Downloads are unsigned. Clean-machine and real Windows sign-in checks are still pending; see [validation](docs/RELEASE-VALIDATION.md).
 
 ## Download
 
@@ -30,7 +45,7 @@ Native C# / WPF. Multiple monitors. A tray icon instead of a floating toolbar. O
 
 A single Alt tap does not start drawing. Undo is shared across monitors and removes one completed stroke per press; key autorepeat does not erase the whole history.
 
-The screenshots below show the actual interface. A demonstration video is not included in this release.
+The screenshots below show the actual interface.
 
 ## Small controls, out of the way
 
@@ -122,17 +137,23 @@ Left and right Alt are tracked separately. AltGr layouts that synthesize Ctrl+Al
 
 Settings: `%APPDATA%\ScreenWisp\settings.json`. Logs: `%LOCALAPPDATA%\ScreenWisp\logs\app.log`. Gesture diagnostics record Alt state transitions and hook errors, not typed text or unrelated key codes. The app makes no network requests. Review logs for personal paths before sharing them.
 
-Development used **OpenAI Codex**. ScreenWisp builds on existing MIT-licensed Desktop Ink code rather than claiming an entirely original implementation. Physical keyboard behavior is distinct from synthetic test input; test counts are not a substitute for a real desktop run.
+Development used **OpenAI Codex**. Original-code and third-party acknowledgments remain in the license and notice files. Physical keyboard behavior is distinct from synthetic test input; test counts are not a substitute for a real desktop run.
 
 ## Source and development
 
 See [localization/DPI checks](docs/LOCALIZATION.md), [build instructions](docs/DEVELOPMENT.md), [architecture](docs/PUBLIC-ARCHITECTURE.md) and [validation](docs/RELEASE-VALIDATION.md). The repository includes a reviewed source set; build products, user logs and private diagnostics do not belong in the public repository. No script publishes to GitHub.
 
-## License and credits
+## Open source & credits
 
-ScreenWisp is derived from [Desktop Ink](https://github.com/atman-33/desktop-ink) by **atman-33**, under MIT. The original [MIT LICENSE](LICENSE), including its 2026 copyright notice, is preserved verbatim. [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) records the reused code and baseline commit. ScreenWisp changes are also distributed under MIT. Bundled .NET runtime license notices are included in the download packages.
+ScreenWisp is free and open source under MIT. Original ScreenWisp additions © 2026 **dontpalevo**.
 
-The approved ScreenWisp S-shaped disappearing stroke and transparent icons are in [branding/](branding/).
+[License for ScreenWisp additions](LICENSE-SCREENWISP) · [Original MIT license](LICENSE) · [Third-party notices](THIRD-PARTY-NOTICES.md) · [Authorship](COPYRIGHT.md)
 
+<details>
+<summary>Original project and development acknowledgments</summary>
 
-[ScreenWisp authorship and notices](COPYRIGHT.md). Original additions © 2026 dontpalevo; original Desktop Ink copyright remains atman-33. See [MIT for ScreenWisp additions](LICENSE-SCREENWISP).
+ScreenWisp incorporates code from [Desktop Ink](https://github.com/atman-33/desktop-ink) by **atman-33** under MIT. Its original copyright and permission notices are preserved. Bundled .NET runtime license notices are included in the downloads. Development was assisted by OpenAI Codex.
+
+</details>
+
+[ScreenWisp branding and icons](branding/).
