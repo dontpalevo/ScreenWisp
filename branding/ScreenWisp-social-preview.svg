@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">ScreenWisp — Draw anywhere. Release Alt. Gone.</title>
+<desc id="desc">Official ScreenWisp S-shaped disappearing stroke on a dark brand cover. Not an interface screenshot.</desc>
+<defs><radialGradient id="cover-glow"><stop stop-color="#30304F"/><stop offset="1" stop-color="#0D111C"/></radialGradient></defs>
+<rect width="1280" height="640" fill="#0D111C"/><ellipse cx="1010" cy="300" rx="410" ry="350" fill="url(#cover-glow)"/>
+<g font-family="Segoe UI, sans-serif">
+<text x="80" y="85" font-size="17" font-weight="600" fill="#B8A1E5">OPEN SOURCE / WINDOWS</text>
+<text x="75" y="210" font-size="82" font-weight="600" fill="#F5F2FC">ScreenWisp</text>
+<text x="80" y="315" font-size="48" fill="#F5F2FC">Draw anywhere.</text>
+<text x="80" y="375" font-size="48" font-weight="600" fill="#BC92F1">Release Alt. Gone.</text>
+<text x="82" y="456" font-size="21" fill="#A9AEC1">Temporary screen annotations</text>
+<path d="M80 520H1200" stroke="#33364A"/>
+<text x="80" y="571" font-size="18" fill="#BCC1D0">dontpalevo / ScreenWisp</text>
+<text x="927" y="572" font-size="17" fill="#969EB3">Native WPF / MIT licensed</text>
+</g>
+<g transform="translate(795 88) scale(.6666666667)"><defs><linearGradient id="ink" x2=".6" y2="1"><stop stop-color="#63718A"/><stop offset=".48" stop-color="#53617A"/><stop offset=".78" stop-color="#8C72AF"/><stop offset="1" stop-color="#B079E8"/></linearGradient></defs><path d="M530,65 C440,-12 192,65 101,144 C25,215 99,265 242,280 C383,295 445,326 351,391 C321,412 288,427 240,447 C122,492 132,527 232,542 C285,550 342,546 385,540 C330,541 255,528 224,514 C177,494 260,470 320,446 C432,405 482,348 452,305 C432,259 354,250 242,237 C126,224 98,194 167,144 C268,76 450,24 530,65 Z" fill="url(#ink)" stroke="#C5BFE0" stroke-width="2.5"/><g fill="#AA7DDF" stroke="#C5BFE0" stroke-width="1.5"><path d="M395 532L410 517L425 532L410 547Z"/><path d="M440 518L452 506L464 518L452 530Z"/><path d="M475 500L484 491L493 500L484 509Z"/><path d="M504.5 480L510 474.5L515.5 480L510 485.5Z"/></g></g>
+</svg>

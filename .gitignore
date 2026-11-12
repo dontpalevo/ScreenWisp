@@ -1,0 +1,48 @@
+# Local builds and editor state
+**/bin/
+**/obj/
+/artifacts/
+.vs/
+.idea/
+*.user
+*.suo
+__pycache__/
+*.pyc
+
+# Binary releases belong in GitHub Release assets
+/release/**/*.exe
+/release/*.exe
+/release/**/*.zip
+/release/*.zip
+
+# Private diagnostics, settings backups, raw captures and local tooling
+/PortableDiagnostics/
+/diagnostics/
+/recordings/
+/work/
+*.log
+*.evtx
+*.dmp
+*.private.json
+*.invalid
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+
+# Historical local reports contain machine paths; use public validation summary
+/docs/TESTING.md
+/docs/ARCHITECTURE.md
+/release/ROOT-CAUSE-REPORT.md
+/release/INSTALLER-RC2-VERIFICATION.md
+/release/TEST-REPORT.md
+/release/TEST-REPORT-RC1.md
+/release/REDDIT-DRAFT.md
+
+# Approved exports are public; original reference uploads remain local
+/ScreenWisp-logo-reference.png
+/Изображение*.png
+
+# Local editorial drafts, not application source
+/publication/REDDIT-*.md

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>ScreenWisp — Settings</value>
+  </data>
+  <data name="GestureHelp" xml:space="preserve">
+    <value>Tap and release Alt, then press the same Alt again and hold to draw. Release Alt to clear.
+Esc: stop drawing · Ctrl+Shift+F12: exit</value>
+  </data>
+  <data name="HotkeyHelp" xml:space="preserve">
+    <value>Shortcuts: Ctrl / Alt / Shift / Win + key</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LanguageAuto" xml:space="preserve">
+    <value>Automatic (Windows)</value>
+  </data>
+  <data name="LanguageEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguageRussian" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="LanguageHint" xml:space="preserve">
+    <value>Applies and saves immediately. Other settings are saved below.</value>
+  </data>
+  <data name="PersistentDrawing" xml:space="preserve">
+    <value>Persistent drawing (optional)</value>
+  </data>
+  <data name="ClearScreens" xml:space="preserve">
+    <value>Clear all screens</value>
+  </data>
+  <data name="UndoStroke" xml:space="preserve">
+    <value>Undo last stroke</value>
+  </data>
+  <data name="TemporaryUndo" xml:space="preserve">
+    <value>Undo while holding (Z or Shift+Z)</value>
+  </data>
+  <data name="UndoHint" xml:space="preserve">
+    <value>Alt is already held. If NVIDIA intercepts Alt+Z, choose Shift+Z. This shortcut is not intercepted outside drawing.</value>
+  </data>
+  <data name="AlternativeHold" xml:space="preserve">
+    <value>Alternative hold shortcut (Ctrl/Shift + key)</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Thickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="WidthHint" xml:space="preserve">
+    <value>Brush thickness in physical pixels</value>
+  </data>
+  <data name="Autostart" xml:space="preserve">
+    <value>Start with Windows</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="PopupTitle" xml:space="preserve">
+    <value>ScreenWisp — Brush</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseBrush" xml:space="preserve">
+    <value>Close brush panel</value>
+  </data>
+  <data name="BrushSubtitle" xml:space="preserve">
+    <value>A brush for quick annotations</value>
+  </data>
+  <data name="BrushThickness" xml:space="preserve">
+    <value>Brush thickness</value>
+  </data>
+  <data name="BrushPreview" xml:space="preserve">
+    <value>Current brush preview</value>
+  </data>
+  <data name="SettingsAccessible" xml:space="preserve">
+    <value>ScreenWisp settings</value>
+  </data>
+  <data name="HoldHint" xml:space="preserve">
+    <value>Alt · hold to draw</value>
+  </data>
+  <data name="WidthValue" xml:space="preserve">
+    <value>{0:0} px</value>
+  </data>
+  <data name="ColorWhite" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="ColorRed" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="ColorBlue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="ColorGreen" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="ColorPurple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="ColorYellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="TrayIdle" xml:space="preserve">
+    <value>ScreenWisp — tap Alt, then hold Alt</value>
+  </data>
+  <data name="TrayTemporary" xml:space="preserve">
+    <value>ScreenWisp — release Alt to clear</value>
+  </data>
+  <data name="TrayDrawing" xml:space="preserve">
+    <value>ScreenWisp — drawing is on</value>
+  </data>
+  <data name="TrayHotkeys" xml:space="preserve">
+    <value>ScreenWisp — shortcut unavailable; open Settings</value>
+  </data>
+  <data name="PenSaveError" xml:space="preserve">
+    <value>Could not save brush settings. {0}</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>The operation failed (code {0}). See the diagnostic log.</value>
+  </data>
+  <data name="ErrorHotkeySyntax" xml:space="preserve">
+    <value>Use Ctrl/Alt/Shift/Win with a letter, number or F1–F24.</value>
+  </data>
+  <data name="ErrorHotkeyMissing" xml:space="preserve">
+    <value>A modifier and a key are required.</value>
+  </data>
+  <data name="ErrorHotkeysMissing" xml:space="preserve">
+    <value>Some shortcuts are missing.</value>
+  </data>
+  <data name="ErrorHotkeyInvalid" xml:space="preserve">
+    <value>Invalid shortcut.</value>
+  </data>
+  <data name="ErrorHotkeyDuplicate" xml:space="preserve">
+    <value>Each shortcut must be different.</value>
+  </data>
+  <data name="ErrorHoldModifiers" xml:space="preserve">
+    <value>Use Ctrl/Shift for the hold shortcut, without Alt or Win.</value>
+  </data>
+  <data name="ErrorEmergencyReserved" xml:space="preserve">
+    <value>Ctrl+Shift+F12 is reserved for emergency exit.</value>
+  </data>
+  <data name="ErrorTemporaryUndo" xml:space="preserve">
+    <value>Choose a letter, number or F1–F24, optionally with Ctrl/Shift. Do not include the held Alt; use a different key from the hold shortcut.</value>
+  </data>
+  <data name="ErrorPenInvalid" xml:space="preserve">
+    <value>Invalid brush settings.</value>
+  </data>
+  <data name="ErrorHotkeyBusy" xml:space="preserve">
+    <value>Shortcut {0} is already in use or unavailable.</value>
+  </data>
+  <data name="ErrorStartupExecutable" xml:space="preserve">
+    <value>Start ScreenWisp.exe to configure Windows startup.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>Developed by dontpalevo</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="AboutLicense" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+  <data name="AboutUpstream" xml:space="preserve">
+    <value>Based on Desktop Ink by atman-33</value>
+  </data>
+  <data name="AboutScope" xml:space="preserve">
+    <value>ScreenWisp additions © 2026 dontpalevo. Original Desktop Ink code © 2026 atman-33.</value>
+  </data>
+  <data name="AboutGitHub" xml:space="preserve">
+    <value>GitHub profile: dontpalevo</value>
+  </data>
+  <data name="AboutLinkError" xml:space="preserve">
+    <value>Could not open the link. {0}</value>
+  </data>
+</root>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>ScreenWisp — Настройки</value>
+  </data>
+  <data name="GestureHelp" xml:space="preserve">
+    <value>Нажмите и отпустите Alt, затем снова нажмите тот же Alt и удерживайте для рисования. Отпустите Alt для очистки.
+Esc — выключить · Ctrl+Shift+F12 — выйти</value>
+  </data>
+  <data name="HotkeyHelp" xml:space="preserve">
+    <value>Горячие клавиши: Ctrl / Alt / Shift / Win + клавиша</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LanguageAuto" xml:space="preserve">
+    <value>Автоматически (Windows)</value>
+  </data>
+  <data name="LanguageEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguageRussian" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="LanguageHint" xml:space="preserve">
+    <value>Применяется и сохраняется сразу. Остальные параметры сохраняются кнопкой ниже.</value>
+  </data>
+  <data name="PersistentDrawing" xml:space="preserve">
+    <value>Постоянное рисование (необязательно)</value>
+  </data>
+  <data name="ClearScreens" xml:space="preserve">
+    <value>Очистить все экраны</value>
+  </data>
+  <data name="UndoStroke" xml:space="preserve">
+    <value>Отменить последний штрих</value>
+  </data>
+  <data name="TemporaryUndo" xml:space="preserve">
+    <value>Отмена при удержании (Z или Shift+Z)</value>
+  </data>
+  <data name="UndoHint" xml:space="preserve">
+    <value>Alt уже удерживается. Если NVIDIA перехватывает Alt+Z, выберите Shift+Z. Вне рисования сочетание не перехватывается.</value>
+  </data>
+  <data name="AlternativeHold" xml:space="preserve">
+    <value>Альтернативное удержание (Ctrl/Shift + клавиша)</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="Thickness" xml:space="preserve">
+    <value>Толщина</value>
+  </data>
+  <data name="WidthHint" xml:space="preserve">
+    <value>Толщина кисти в физических пикселях</value>
+  </data>
+  <data name="Autostart" xml:space="preserve">
+    <value>Запускать вместе с Windows</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="PopupTitle" xml:space="preserve">
+    <value>ScreenWisp — Кисть</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="CloseBrush" xml:space="preserve">
+    <value>Закрыть выбор кисти</value>
+  </data>
+  <data name="BrushSubtitle" xml:space="preserve">
+    <value>Кисть для быстрых пометок</value>
+  </data>
+  <data name="BrushThickness" xml:space="preserve">
+    <value>Толщина кисти</value>
+  </data>
+  <data name="BrushPreview" xml:space="preserve">
+    <value>Предпросмотр текущей кисти</value>
+  </data>
+  <data name="SettingsAccessible" xml:space="preserve">
+    <value>Настройки ScreenWisp</value>
+  </data>
+  <data name="HoldHint" xml:space="preserve">
+    <value>Alt · удерживать</value>
+  </data>
+  <data name="WidthValue" xml:space="preserve">
+    <value>{0:0} px</value>
+  </data>
+  <data name="ColorWhite" xml:space="preserve">
+    <value>Белый</value>
+  </data>
+  <data name="ColorRed" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="ColorBlue" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="ColorGreen" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="ColorPurple" xml:space="preserve">
+    <value>Фиолетовый</value>
+  </data>
+  <data name="ColorYellow" xml:space="preserve">
+    <value>Жёлтый</value>
+  </data>
+  <data name="TrayIdle" xml:space="preserve">
+    <value>ScreenWisp — Alt, затем Alt удерживать</value>
+  </data>
+  <data name="TrayTemporary" xml:space="preserve">
+    <value>ScreenWisp — отпустите Alt для очистки</value>
+  </data>
+  <data name="TrayDrawing" xml:space="preserve">
+    <value>ScreenWisp — рисование включено</value>
+  </data>
+  <data name="TrayHotkeys" xml:space="preserve">
+    <value>ScreenWisp — клавиши заняты; откройте настройки</value>
+  </data>
+  <data name="PenSaveError" xml:space="preserve">
+    <value>Не удалось сохранить параметры кисти. {0}</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Операция не выполнена (код {0}). Подробности в журнале.</value>
+  </data>
+  <data name="ErrorHotkeySyntax" xml:space="preserve">
+    <value>Используйте Ctrl/Alt/Shift/Win и букву, цифру или F1–F24.</value>
+  </data>
+  <data name="ErrorHotkeyMissing" xml:space="preserve">
+    <value>Нужны модификатор и клавиша.</value>
+  </data>
+  <data name="ErrorHotkeysMissing" xml:space="preserve">
+    <value>Не заданы горячие клавиши.</value>
+  </data>
+  <data name="ErrorHotkeyInvalid" xml:space="preserve">
+    <value>Неверная комбинация.</value>
+  </data>
+  <data name="ErrorHotkeyDuplicate" xml:space="preserve">
+    <value>Комбинации должны различаться.</value>
+  </data>
+  <data name="ErrorHoldModifiers" xml:space="preserve">
+    <value>Для удержания используйте Ctrl/Shift без Alt и Win.</value>
+  </data>
+  <data name="ErrorEmergencyReserved" xml:space="preserve">
+    <value>Ctrl+Shift+F12 зарезервировано для аварийного выхода.</value>
+  </data>
+  <data name="ErrorTemporaryUndo" xml:space="preserve">
+    <value>Выберите букву, цифру или F1–F24, при необходимости с Ctrl/Shift. Удерживаемый Alt указывать не нужно; клавиша должна отличаться от удержания.</value>
+  </data>
+  <data name="ErrorPenInvalid" xml:space="preserve">
+    <value>Неверные параметры кисти.</value>
+  </data>
+  <data name="ErrorHotkeyBusy" xml:space="preserve">
+    <value>Комбинация {0} занята или недоступна.</value>
+  </data>
+  <data name="ErrorStartupExecutable" xml:space="preserve">
+    <value>Для настройки автозапуска запустите ScreenWisp.exe.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>Разработчик — dontpalevo</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Версия {0}</value>
+  </data>
+  <data name="AboutLicense" xml:space="preserve">
+    <value>Лицензия MIT</value>
+  </data>
+  <data name="AboutUpstream" xml:space="preserve">
+    <value>На основе Desktop Ink автора atman-33</value>
+  </data>
+  <data name="AboutScope" xml:space="preserve">
+    <value>Доработки ScreenWisp © 2026 dontpalevo. Исходный код Desktop Ink © 2026 atman-33.</value>
+  </data>
+  <data name="AboutGitHub" xml:space="preserve">
+    <value>Профиль GitHub: dontpalevo</value>
+  </data>
+  <data name="AboutLinkError" xml:space="preserve">
+    <value>Не удалось открыть ссылку. {0}</value>
+  </data>
+</root>

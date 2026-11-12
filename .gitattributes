@@ -1,0 +1,6 @@
+*.png binary
+*.ico binary
+*.zip binary
+*.exe binary
+# Preserve the upstream MIT notice bytes.
+LICENSE -text
