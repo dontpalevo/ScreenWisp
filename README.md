@@ -10,6 +10,8 @@
 
 Tap and release Alt, then press and hold the same Alt again to draw. **Release Alt and your marks instantly vanish**, while the mouse returns to normal. Works across multiple monitors.
 
+![ScreenWisp demo — draw while holding Alt, release to clear](docs/media/ScreenWisp-GitHub-Demo.gif)
+
 Free · Open source (MIT) · Windows 10/11 x64 · English & Russian
 
 [**Download ScreenWisp**](https://github.com/dontpalevo/ScreenWisp/releases/tag/v1.0.0-rc.3) · [See how it works](#draw-explain-let-go)
